@@ -13,6 +13,7 @@ public static void main(String[] args) {
      RegistroAlunni registro = new RegistroAlunni();
     //  aggiungo uno studente creato direttamente nel registro
      registro.aggiungiStudente(new Studente("Anna", "Bianchi", 22));
+     registro.aggiungiStudente(new Studente("Federico", "Quin", 22));
     //  aggiungo uno studente creato nello snack numero 1
      registro.aggiungiStudente(studente1);
       // Stampa il registro
