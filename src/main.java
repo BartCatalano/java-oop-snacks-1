@@ -18,6 +18,7 @@ public static void main(String[] args) {
       // Stampa il registro
       registro.stampaRegistro();
 
+    //   usando questa soluzione nel primo snack assegno a mario il nome della var studente1, mentre nel secondo caso uso solo la classe studente per creare il secondo direttamente nel registro. anna esiste solo nel registro o come studente1 esiste esiste indipendentemente dalregistro?
 
     
 
