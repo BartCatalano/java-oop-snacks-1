@@ -1,6 +1,8 @@
 package org.snack.java.snack;
 
-public class studente {
+// Scrivi una classe Studente con i seguenti attributi: nome, cognome, età. Implementa un costruttore che accetta tre parametri per inizializzare questi attributi. Aggiungi un metodo che restituisca una stringa concatenata dei valori (es. Anselmo Bitta, 24 anni).
+
+public class Studente {
 
     // creo le var da popolare
 private String nome;
@@ -9,7 +11,7 @@ private int age;
 
 // creo il costruttore 
 
-public studente(String nome, String cognome, int age) {
+public Studente(String nome, String cognome, int age) {
     this.nome = nome;
     this.cognome = cognome;
     this.age = age;

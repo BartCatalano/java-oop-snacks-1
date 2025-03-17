@@ -1,12 +1,24 @@
-import org.snack.java.snack.studente;
+import org.snack.java.snack.RegistroAlunni;
+import org.snack.java.snack.Studente;
 import org.snack.java.student.ContoBancario;
 
 public class main {
 public static void main(String[] args) {
 
     // inizializzo studente e lo stampo
-    studente studente1 = new studente("Mario", "Rossi", 25);
+    Studente studente1 = new Studente("Mario", "Rossi", 25);
     System.out.println(studente1.toString());
+
+    // creo un registro per gli studenti
+     RegistroAlunni registro = new RegistroAlunni();
+    //  aggiungo uno studente creato direttamente nel registro
+     registro.aggiungiStudente(new Studente("Anna", "Bianchi", 22));
+    //  aggiungo uno studente creato nello snack numero 1
+     registro.aggiungiStudente(studente1);
+      // Stampa il registro
+      registro.stampaRegistro();
+
+
     
 
 
