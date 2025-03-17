@@ -1,4 +1,4 @@
-package org.snack.java.student;
+package org.snack.java.snack;
 
 public class studente {
 
