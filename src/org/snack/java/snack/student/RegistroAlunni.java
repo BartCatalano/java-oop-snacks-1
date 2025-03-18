@@ -1,6 +1,5 @@
-package org.snack.java.snack;
+package org.snack.java.snack.student;
 // Crea una classe RegistroAlunni che rappresenti un registro di alunni. Utilizza un array privato per memorizzare oggetti Alunno. Implementa un costruttore senza parametri per inizializzare il registro vuoto e un metodo pubblico per aggiungere alunni al registro. Aggiungi un metodo che stampi la lista degli studenti.
-
 
 public class RegistroAlunni {
     // cero un array vuoto per inserire gli studenti

@@ -1,4 +1,4 @@
-package org.snack.java.student;
+package org.snack.java.snack.student;
 
 import java.math.BigDecimal;
 
